@@ -82,5 +82,40 @@ sep='\n' → imprime cada valor em linha separada
 # print('A soma é {}, o produto é {} \ne a divisão é {:.2f}'.format(soma,mult,div),end=' ')
 # print('e a Divisão Inteira é {} e a potencia é {}'.format(divInt,exp))
 
+# # 005desafio
+# num=int(input('Digite um numero inteiro: '))
+# sucessor=num+1
+# antecessor=num-1
+# print('O numero digitado foi {}, seu sucessor é {} e o antecessor é {}'.format(num,sucessor,antecessor))
 
+# # 006desafio
+# num=int(input('Digite um numero inteiro:'))
+# dobro=num*2
+# triplo=num*3
+# raiz=num**(1/2)
+# print('O numero digitado foi {:~^10}, e seu dobro é {:~^10}\nseu Triplo é {:~^10} e a sua Raiz Quadrada {:~^10.2f}'.format(num,dobro,triplo,raiz))
 
+# # 007desafio
+# nota1=float(input('Digite a 1 nota: '))
+# nota2=float(input('Digite a 2 nota: '))
+# media=(nota1+nota2)/2
+# print('A media do aluno foi {:~^10.2f}'.format(media))
+
+# # 008desafio
+# metros=float(input('Quantos metros deseja converter? '))
+# centimetros=metros*100
+# milimetros=metros*1000
+# print('{:~^15,.2f} metros, convertido é {:~^15,.2f} centimetros e {:~^15,.2f} milimetros'.format(metros,centimetros,milimetros).replace(',','X').replace('.',',').replace('X','.'))
+
+# # 009 desafio -- PRIMEIRO CODIGO DE CABEÇA SEM REVISAR NA INTERNET OU IA =]]]]]]
+# num=int(input('Digite um numero: '))
+# mult=[1,2,3,4,5,6,7,8,9,10,11]
+#
+# for c in mult:
+#     print(f'{num} x {c} = {num*c}')
+
+# 010 desafio
+dinheiro=float(input('Digite o valor do dinheiro: '))
+dolar=float(input('Digite o valor do dolar: '))
+conversao=dinheiro/dolar
+print('Com R$ {:^10,.2f} , voce tera $ {:^10,.2f} dolar ao preço de: {:^10,.2f}.'.format(dinheiro,conversao,dolar))
