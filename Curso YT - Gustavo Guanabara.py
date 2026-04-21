@@ -115,7 +115,31 @@ sep='\n' → imprime cada valor em linha separada
 #     print(f'{num} x {c} = {num*c}')
 
 # 010 desafio
-dinheiro=float(input('Digite o valor do dinheiro: '))
-dolar=float(input('Digite o valor do dolar: '))
-conversao=dinheiro/dolar
-print('Com R$ {:^10,.2f} , voce tera $ {:^10,.2f} dolar ao preço de: {:^10,.2f}.'.format(dinheiro,conversao,dolar))
+# dinheiro=float(input('Digite o valor do dinheiro: '))
+# dolar=float(input('Digite o valor do dolar: '))
+# conversao=dinheiro/dolar
+# print('Com R$ {:^10,.2f} , voce tera $ {:^10,.2f} dolar ao preço de: {:^10,.2f}.'.format(dinheiro,conversao,dolar))
+
+# 011 dessafio
+# largura=float(input('Digite a Largura da parede em Mts: '))
+# altura=float(input('Digite a Altura da parede em Mts: '))
+# quantM2=float(input('Qual rendimento da tinta em M²: '))
+# metrosQuad=largura*altura
+# areaPintada=metrosQuad/quantM2
+# print('Para uma parede {} por {}, da um total de {}m². Que usará {}Litros com {}m² rendimento'.format(largura,altura,metrosQuad,areaPintada,quantM2))
+#
+# v2 - sugestao cloude
+# Desafio 011 - Cálculo de tinta
+largura = float(input('Digite a Largura da parede em Mts: '))
+altura = float(input('Digite a Altura da parede em Mts: '))
+litrosTinta = float(input('Quantos litros de tinta da embalagem: '))
+rendTinta = float(input('Quantos m²/embalagem faz: '))
+
+rendEmba=litrosTinta/rendTinta
+metrosQuad = largura * altura
+areaPintada = metrosQuad / rendEmba
+
+print(f'\nPara uma parede de {largura}m x {altura}m:')
+print(f'  Área total:       {metrosQuad:.2f} m²')
+print(f'  Tinta necessária: {areaPintada:.2f} Litros')
+print(f'  Rendimento:       {rendEmba} m²/L')
