@@ -130,16 +130,28 @@ sep='\n' → imprime cada valor em linha separada
 #
 # v2 - sugestao cloude
 # Desafio 011 - Cálculo de tinta
-largura = float(input('Digite a Largura da parede em Mts: '))
-altura = float(input('Digite a Altura da parede em Mts: '))
-litrosTinta = float(input('Quantos litros de tinta da embalagem: '))
-rendTinta = float(input('Quantos m²/embalagem faz: '))
+# largura = float(input('Digite a Largura da parede em Mts: '))
+# altura = float(input('Digite a Altura da parede em Mts: '))
+# litrosTinta = float(input('Quantos litros de tinta da embalagem: '))
+# rendTinta = float(input('Quantos m²/embalagem faz: '))
+#
+# rendEmba=litrosTinta/rendTinta
+# metrosQuad = largura * altura
+# areaPintada = metrosQuad / rendEmba
+#
+# print(f'\nPara uma parede de {largura}m x {altura}m:')
+# print(f'  Área total:       {metrosQuad:.2f} m²')
+# print(f'  Tinta necessária: {areaPintada:.2f} Litros')
+# print(f'  Rendimento:       {rendEmba} m²/L')
 
-rendEmba=litrosTinta/rendTinta
-metrosQuad = largura * altura
-areaPintada = metrosQuad / rendEmba
+# 012 desasfio
+# preco=float(input('Digite um Preço: '))
+# desconto=float(input('Digite o Desconto: '))
+# novoPreco=preco*(1-desconto/100)
+# print(f'O novo preço de {preco:.2f}, com desconto {desconto:.2f} é: {novoPreco:.2f}')
 
-print(f'\nPara uma parede de {largura}m x {altura}m:')
-print(f'  Área total:       {metrosQuad:.2f} m²')
-print(f'  Tinta necessária: {areaPintada:.2f} Litros')
-print(f'  Rendimento:       {rendEmba} m²/L')
+# 013 desafio
+salario=float(input('Digite seu salario: '))
+aumento=float(input('Digite aumento %: '))
+novoSalario=salario*(1+aumento/100)
+print(f'Seu novo salario é: R${novoSalario:.2f}')
