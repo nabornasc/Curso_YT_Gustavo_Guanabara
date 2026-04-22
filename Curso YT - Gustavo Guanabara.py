@@ -1,5 +1,5 @@
 # print('ola mundo BR')
-# print('Parabens nova branch criada pc-servico')
+# print('Parabens nova branch criada pc-service')
 #
 # n1,n2=map(int,input('Digite 2 valores separado por espaço "A B", para Somar: ').split())
 #
@@ -12,12 +12,12 @@
 # algo=input('Digite algo: ')
 #
 # print('O tipo primitivo desse valor é = ',type(algo))
-# print('É somente espaços: {}'.format(algo.isspace())) # usando .format
+# print('É somente escapes: {}'.format(algo.isspace())) # usando .format
 # print('É um numero: ',algo.isnumeric())
-# print('É alfabetico: ',algo.isalpha())
-# print('É alfanumerico: ',algo.isalnum())
-# print('Esta em maiusculo: ',algo.isupper())
-# print('Esta em minusculo: ',algo.islower())
+# print('É alfabético: ',algo.isalpha())
+# print('É alfanumérico: ',algo.isalnum())
+# print('Esta em majuscule: ',algo.isupper())
+# print('Esta em minúsculo: ',algo.islower())
 # print('Esta Capitalizado: ',algo.istitle())
 
 # 003ex
@@ -28,7 +28,7 @@
 # print('A soma dos valores {} e {} = {}'.format(n1,n2,soma))
 
 # 005ex
-# Ordem de precedencia 1-- (); 2-- **; 3-- *,/,//,%; 4-- +,-
+# Order de precedencia 1-- (); 2-- **; 3-- *,/,//,%; 4-- +,-
 
 # print(5+2)
 # print(5-2)
@@ -38,14 +38,14 @@
 # print(5//2)
 # print(5%2)
 
-# print(5+3*2) # testando ordens
+# print(5+3*2) # testando orders
 # print(3*5+4**2)
 # print(3*(5+4)**2)
 
 # nome=input('Qual é seu nome?: ')
 # print('Prazer em te conhecer {:~^20}!'.format(nome)) # teste de tipos de inferencia
 
-# ???ex-Beecrowd - Ordenação
+# ???ex-Beecrowd - Ordnance
 #
 # a, b, c = map(int, input().split())
 #
@@ -58,7 +58,7 @@
 # print(b)
 # print(c)
 '''
-Fluxo real:
+fluxo real:
 
 [a, b, c] → cria lista
 sorted(...) → ordena → [x, y, z]
@@ -68,7 +68,7 @@ sep='\n' → imprime cada valor em linha separada
 # a, b, c = map(int, input().split())
 #
 # print(*sorted([a, b, c]), sep='\n')
-# print() # somente para ter 1 espaço em branco entre os resultado
+# print() # somente para ter 1 espaço em branch entre os resultado
 # print(a, b, c, sep='\n')
 
 # 006ex
@@ -79,21 +79,21 @@ sep='\n' → imprime cada valor em linha separada
 # div=n1/n2
 # divInt=n1//n2
 # exp=n1**n2
-# print('A soma é {}, o produto é {} \ne a divisão é {:.2f}'.format(soma,mult,div),end=' ')
+# print('A soma é {}, o produce é {} \ne a divisão é {:.2f}'.format(soma,mult,div),end=' ')
 # print('e a Divisão Inteira é {} e a potencia é {}'.format(divInt,exp))
 
-# # 005desafio
-# num=int(input('Digite um numero inteiro: '))
+# # 005desafio - da para colocar o calculo dentro do .format
+# num=int(input('Digite um numero integer: '))
 # sucessor=num+1
 # antecessor=num-1
-# print('O numero digitado foi {}, seu sucessor é {} e o antecessor é {}'.format(num,sucessor,antecessor))
+# print('O numero digitado foi {}, seu successor é {} e o antecessor é {}'.format(num,successor,antecessor))
 
 # # 006desafio
-# num=int(input('Digite um numero inteiro:'))
+# num=int(input('Digite um numero integer:'))
 # dobro=num*2
 # triplo=num*3
 # raiz=num**(1/2)
-# print('O numero digitado foi {:~^10}, e seu dobro é {:~^10}\nseu Triplo é {:~^10} e a sua Raiz Quadrada {:~^10.2f}'.format(num,dobro,triplo,raiz))
+# print('O numero digitado foi {:~^10}, e seu dobro é {:~^10}\nseu Triplo é {:~^10} e a sua raiz Quadrada {:~^10.2f}'.format(num,dobro,triplo,raiz))
 
 # # 007desafio
 # nota1=float(input('Digite a 1 nota: '))
@@ -105,9 +105,9 @@ sep='\n' → imprime cada valor em linha separada
 # metros=float(input('Quantos metros deseja converter? '))
 # centimetros=metros*100
 # milimetros=metros*1000
-# print('{:~^15,.2f} metros, convertido é {:~^15,.2f} centimetros e {:~^15,.2f} milimetros'.format(metros,centimetros,milimetros).replace(',','X').replace('.',',').replace('X','.'))
+# print('{:~^15,.2f} metros, convertido é {:~^15,.2f} centímetros e {:~^15,.2f} milímetros'.format(metros,centímetros,milímetros).replace(',','X').replace('.',',').replace('X','.'))
 
-# # 009 desafio -- PRIMEIRO CODIGO DE CABEÇA SEM REVISAR NA INTERNET OU IA =]]]]]]
+# # 009 desafio -- PRIMERO CÓDIGO DE CABER SEM Revisar NA INTERNET OU IA =]]]]]]
 # num=int(input('Digite um numero: '))
 # mult=[1,2,3,4,5,6,7,8,9,10,11]
 #
@@ -116,17 +116,17 @@ sep='\n' → imprime cada valor em linha separada
 
 # 010 desafio
 # dinheiro=float(input('Digite o valor do dinheiro: '))
-# dolar=float(input('Digite o valor do dolar: '))
+# dolar=float(input('Digite o valor do dólar: '))
 # conversao=dinheiro/dolar
-# print('Com R$ {:^10,.2f} , voce tera $ {:^10,.2f} dolar ao preço de: {:^10,.2f}.'.format(dinheiro,conversao,dolar))
+# print('Com R$ {:^10,.2f} , voce tera $ {:^10,.2f} dólar ao preço de: {:^10,.2f}.'.format(dinheiro,conversao,dólar))
 
 # 011 dessafio
-# largura=float(input('Digite a Largura da parede em Mts: '))
-# altura=float(input('Digite a Altura da parede em Mts: '))
-# quantM2=float(input('Qual rendimento da tinta em M²: '))
+# largura=float(input('Digite a Largura da pared em Mts: '))
+# altura=float(input('Digite a Altura da pared em Mts: '))
+# quantM2=float(input('Qual rendimiento da tinta em M²: '))
 # metrosQuad=largura*altura
 # areaPintada=metrosQuad/quantM2
-# print('Para uma parede {} por {}, da um total de {}m². Que usará {}Litros com {}m² rendimento'.format(largura,altura,metrosQuad,areaPintada,quantM2))
+# print('Para uma pared {} por {}, da um total de {}m². Que usará {}Litros com {}m² rendimento'.format(largura,altura,metrosQuad,areaPintada,quantM2))
 #
 # v2 - sugestao cloude
 # Desafio 011 - Cálculo de tinta
@@ -144,14 +144,15 @@ sep='\n' → imprime cada valor em linha separada
 # print(f'  Tinta necessária: {areaPintada:.2f} Litros')
 # print(f'  Rendimento:       {rendEmba} m²/L')
 
-# 012 desasfio
-# preco=float(input('Digite um Preço: '))
-# desconto=float(input('Digite o Desconto: '))
+# 012 desafío
+preco=float(input('Digite um preço: R$'))
+desconto=float(input('Digite o desconto: '))
 # novoPreco=preco*(1-desconto/100)
-# print(f'O novo preço de {preco:.2f}, com desconto {desconto:.2f} é: {novoPreco:.2f}')
+novoPreco=preco-(preco*desconto/100) # Outro metodo para chegar no resultado
+print(f'O novo preço de R${preco:.2f}, com desconto {desconto:.2f}% é: R${novoPreco:.2f}')
 
-# 013 desafio
-salario=float(input('Digite seu salario: '))
-aumento=float(input('Digite aumento %: '))
-novoSalario=salario*(1+aumento/100)
-print(f'Seu novo salario é: R${novoSalario:.2f}')
+# 013 desafío
+# salario=float(input('Digite seu salario: '))
+# aumento=float(input('Digite aumento %: '))
+# novoSalario=salario*(1+aumento/100)
+# print(f'Seu novo salario é: R${novoSalario:.2f}')
