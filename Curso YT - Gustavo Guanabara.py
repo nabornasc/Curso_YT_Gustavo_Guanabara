@@ -145,14 +145,30 @@ sep='\n' → imprime cada valor em linha separada
 # print(f'  Rendimento:       {rendEmba} m²/L')
 
 # 012 desafío
-preco=float(input('Digite um preço: R$'))
-desconto=float(input('Digite o desconto: '))
-# novoPreco=preco*(1-desconto/100)
-novoPreco=preco-(preco*desconto/100) # Outro metodo para chegar no resultado
-print(f'O novo preço de R${preco:.2f}, com desconto {desconto:.2f}% é: R${novoPreco:.2f}')
+# preco=float(input('Digite um preço: R$'))
+# desconto=float(input('Digite o desconto: '))
+# # novoPreco=preco*(1-desconto/100)
+# novoPreco=preco-(preco*desconto/100) # Outro metodo para chegar no resultado
+# print(f'O novo preço de R${preco:.2f}, com desconto {desconto:.2f}% é: R${novoPreco:.2f}')
 
 # 013 desafío
 # salario=float(input('Digite seu salario: '))
 # aumento=float(input('Digite aumento %: '))
 # novoSalario=salario*(1+aumento/100)
 # print(f'Seu novo salario é: R${novoSalario:.2f}')
+
+# 014 desasfio
+
+# temp=float(input('Digite a temperatura em Celsius: '))
+# fahr=(temp*9/5)+32
+# print(f'{temp:.2f}°C equivalem a {fahr:.2f}°F')
+
+# 015 desafio
+
+# aluguelDias=int(input('Quantos dias vai alugar o carro? '))
+# kmRodados=float(input('Quantos km foram rodados? '))
+#
+# precoAluguel=(aluguelDias*60)+(kmRodados*0.15)
+#
+# print(f'O preço do aluguel é: R$ {precoAluguel:.2f}')
+
