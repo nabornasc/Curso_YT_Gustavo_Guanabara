@@ -172,3 +172,48 @@ sep='\n' → imprime cada valor em linha separada
 #
 # print(f'O preço do aluguel é: R$ {precoAluguel:.2f}')
 
+# ==========================================================
+# import emoji
+# from math import sqrt
+#
+# num = int(input('Digite um numero: '))
+# raiz = sqrt(num)
+# print(emoji.emojize('A raiz de {} e igual a {:.2f} :sunglasses:'.format(num, raiz), language='alias'))
+
+# =============================================================================
+
+# opc1=input()
+# opc2=input()
+# opc3=input()
+#
+# list1=['vertebrado','invertebrado']
+# list2=['ave','mamifero','inseto','anelideo']
+# list3=['carnivoro','onivoro','herbivoro','hematofago']
+# list4=['aguia','pomba','homem','vaca','pulga','lagarta','sanguessuga','minhoca']
+#
+# if opc1 == list1[0]:
+#     if opc2 == list2[0]:
+#         if opc3 == list3[0]:
+#             print(list4[0])
+#         else:
+#             print(list4[1])
+#
+#     elif opc2 == list2[1]:
+#         if opc3 == list3[1]:
+#             print(list4[2])
+#         else:
+#             print(list4[3])
+#
+# else:
+#     if opc2 == list2[2]:
+#         if opc3 == list3[3]:
+#             print(list4[4])
+#         else:
+#             print(list4[5])
+#
+#     elif opc2 == list2[3]:
+#         if opc3 == list3[3]:
+#             print(list4[6])
+#         else:
+#             print(list4[7])
+
