@@ -35,21 +35,32 @@ import random
 # print(f'O angulo {anG}º,\n tem Seno de: {seno:.3f},\n Cosseno de: {cosseno:.3f},\n Tangente de: {tangente:.3f}')
 
 # desafio 19 e 20
+#
+# alunos=[]
+#
+# for cont in range(3):
+#     alunos.append(input("Digite o nome do aluno: "))
+#
+# # ordem_sorteada=random.sample(alunos,len(alunos)) # sample - permite sortear aleatoriamente sem repetir posição
+# posicoes = list(range(len(alunos)))
+# random.shuffle(posicoes)
+#
+# sorteio = list(zip(posicoes, alunos))
+# sorteio.sort(key=lambda x: x[0])
+#
+# # print(f'Lista de Alunos: {alunos}')
+# # print(f'Lista de Ordem Sorteada: {ordem_sorteada}')
+#
+# for posicao,aluno in sorteio:
+#     print(f'{posicao+1} - {aluno}')
 
-alunos=[]
+# desafio 21
 
-for cont in range(3):
-    alunos.append(input("Digite o nome do aluno: "))
-
-# ordem_sorteada=random.sample(alunos,len(alunos)) # sample - permite sortear aleatoriamente sem repetir posição
-posicoes = list(range(len(alunos)))
-random.shuffle(posicoes)
-
-sorteio = list(zip(posicoes, alunos))
-sorteio.sort(key=lambda x: x[0])
-
-# print(f'Lista de Alunos: {alunos}')
-# print(f'Lista de Ordem Sorteada: {ordem_sorteada}')
-
-for posicao,aluno in sorteio:
-    print(f'{posicao+1} - {aluno}')
+# import pygame
+#
+# pygame.mixer.init()
+# pygame.mixer.music.load('/home/user/Downloads/CPM_22_-_Um_Minuto_Para_O_Fim_Do_Mundo_(mp3.pm).mp3')
+# pygame.mixer.music.play()
+#
+# while pygame.mixer.music.get_busy():
+#     pass
