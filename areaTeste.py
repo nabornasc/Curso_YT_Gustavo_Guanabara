@@ -59,7 +59,7 @@ shuffle(alunos)
 
 print(alunos)
 '''
-
+'''
 from pygame import init, mixer
 
 init()
@@ -68,6 +68,8 @@ mixer.music.play()
 
 while mixer.music.get_busy():
     pass
+'''
+
 
 
 
