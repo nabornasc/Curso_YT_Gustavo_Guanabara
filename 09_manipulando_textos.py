@@ -42,4 +42,12 @@ frase3=("""
 
 # uma str é imutavel.
 
+# ==================================================
+# desafio 22
 
+nome=str(input('\nDigite seu Nome Completo: ').strip())
+
+print(f'Maiuscula - {nome.upper()}')
+print(f'Minuscula - {nome.lower()}')
+print(f'Contagem Total s/espaços - {len(''.join(nome.split()))} letras')
+print(f'Contagem do 1º Nome - {len(nome.split()[0])} letras')
