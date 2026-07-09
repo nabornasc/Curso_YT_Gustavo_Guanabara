@@ -44,10 +44,65 @@ frase3=("""
 
 # ==================================================
 # desafio 22
-
+'''
 nome=str(input('\nDigite seu Nome Completo: ').strip())
 
 print(f'Maiuscula - {nome.upper()}')
 print(f'Minuscula - {nome.lower()}')
 print(f'Contagem Total s/espaços - {len(''.join(nome.split()))} letras')
 print(f'Contagem do 1º Nome - {len(nome.split()[0])} letras')
+'''
+# ==================================================
+#  desafio 23
+'''
+casaDec=['milhar','centena','dezena','unidade']
+num=int(input('Digite um numero inteiro[xxxx]: '))
+for cont in range(3,-1,-1):
+    print(f'{casaDec[cont].title()}: {str(num)[cont]}')
+'''
+# ====================================================
+# desafio 24
+'''
+cid=str(input('Digite o nome da sua Cidade: ')).upper().split()
+
+if cid[0]=='SANTO':
+    print(f'Sua cidade começa com {cid[0]}')
+else:
+    print(f'Sua cidade não começa com "SANTO"')
+'''
+
+# ====================================================
+# desafio 25
+#
+# nome=str(input('Digite seu nome Completo: ')).upper().split()
+#
+# flag=True
+#
+# for nome2 in nome:
+#     if nome2=='SILVA':
+#         print(f'Em seu nome tem {nome2}')
+#         flag=False
+#
+# if flag:
+#     print(f'Em seu nome não contem "SILVA"')
+
+# ====================================================
+# desafio 26
+#
+# frase4=str(input('Digite uma frase: ')).strip()
+# print(f'{frase4.count('A')} - "A" Maiusculo') # procura letra Maiuscula
+# print(f'{frase4.count('a')} - "a" Minusculo') # procura letra Minuscula
+# print(f'1ºvez encontrado "A/a" na posição - {frase4.lower().find('a')}')
+# print(f'Ultima vez encontrado "a" na posição - {frase4.lower().rfind('a')}')
+
+# ====================================================
+# desafio 27
+
+nome=str(input('Digite seu nome Completo: ')).title().split()
+print(f'Primeiro nome: {nome[0]}\nÚltimo nome: {nome[len(nome)-1]}')
+
+
+
+
+
+
