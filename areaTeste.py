@@ -69,6 +69,24 @@ mixer.music.play()
 while mixer.music.get_busy():
     pass
 '''
+# =================================================================
+'''
+nome = str(input('Digite seu nome completo: ')).strip()
+print(f'Seu nome em maiusculo: {nome.upper()}')
+print(f'Seu nome em minusculo: {nome.lower()}')
+print(f'Seu nome completo tem {len(nome)-nome.count(' ')} letras')
+print(f'Seu primeiro nome tem {nome.find(' ')} letras') # este metodo retornar o valor do primeiro espaço encontrado, assim resultando no mesmo valor do primeiro nome ' sem usar o len '
+list=nome.split()
+print('Seu primeiro nome é {} e tem {} letras'.format(list[0],len(list[0])))
+'''
+
+num=int(input('Digite um numero: '))
+numS=str(num)
+
+
+
+
+
 
 
 
