@@ -79,13 +79,29 @@ print(f'Seu primeiro nome tem {nome.find(' ')} letras') # este metodo retornar o
 list=nome.split()
 print('Seu primeiro nome é {} e tem {} letras'.format(list[0],len(list[0])))
 '''
+'''
+cid=str(input('Digite o nome da sua cidade: ')).strip()
 
-num=int(input('Digite um numero: '))
-numS=str(num)
+print(cid[:5].lower() == 'santo')
+'''
+'''
+nome=str(input('Digite seu nome completo: ')).lower().strip()
 
+print(f'Seu nome contem SILVA: {"silva" in nome}')
+'''
+'''
+frs=str(input('Digite uma frase: ')).lower().strip()
 
+print(f'Quantas letras "A" apareceu na frase: {frs.count("a")} und')
+print(f'A primeira letra "A" apareceu na posição: {frs.find("a")+1}')
+print(f'A ultima letra "A" apareceu na posição: {frs.rfind("a")+1}')
+'''
+'''
+nome=str(input('Digite seu nome completo: ')).lower().strip().split()
 
-
+print(f'Seu primeiro nome é: {nome[0]}')
+print(f'Seu ultimo nome: {nome[len(nome)-1]}')
+'''
 
 
 
