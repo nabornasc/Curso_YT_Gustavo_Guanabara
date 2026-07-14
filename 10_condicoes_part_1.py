@@ -118,5 +118,17 @@ print('Seu novo salário é: R${:.2f}'.format(sal+sal*tax2) if sal<cort else sal
 '''
 # =======================================================
 # desafio 35
+med=[]
+med2=[]
+for cont in range (3):
+    med.append(int(input(f'Digite o tamanho do {cont+1} segmento: ')))
 
+for cont2 in range(len(med)):
+    for cont3 in range(cont2+1,len(med)):
+        if med[cont2]<med[cont3]:
+            med2.append(med[cont2])
 
+if min(med2)+max(med2)>max(med):
+    print(f'Os numero {med} podem formar um Triangulo')
+else:
+    print(f'Os numero {med} não podem formar um Triangulo')

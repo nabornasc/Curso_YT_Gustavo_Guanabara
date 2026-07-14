@@ -102,6 +102,82 @@ nome=str(input('Digite seu nome completo: ')).lower().strip().split()
 print(f'Seu primeiro nome é: {nome[0]}')
 print(f'Seu ultimo nome: {nome[len(nome)-1]}')
 '''
+# ================================================================
+#
+# from random import randint
+# from time import sleep
+#
+# numSorteado=randint(1,5)
+# print('-=-' * 20)
+# print('Tente adivinhar o numero que escolhi [0 a 5]...')
+# print('-=-' * 20)
+# jogador=int(input('Em que numero eu pensei?: '))
+# print('PROCESSANDO...')
+# sleep(1)
+# print('Parabens! Voce venceu...' if numSorteado==jogador else 'Que pena! Voce perdeu...\n\n Tente novamente')
+
+# ================================================================
+
+# velCarro=float(input('Qual a velocidade do carro: '))
+# if velCarro<80:
+#     print('Tenha um bom dia, diriga com segurança.')
+# else:
+#     multa=(velCarro-80)*7
+#     print('MULTADO! Você excedeu o limite de velocidade.\n Valor da Multa: R${:.2f}'.format(multa))
+
+# ================================================================
+
+# num=int(input('Digite um numero inteiro: '))
+# result=num%2
+# print('O numero {} é PAR'.format(num) if result==0 else 'O numero {} é IMPAR'.format(num))
+
+# ================================================================
+
+# dist=float(input('Qual a distancia da sua viagem: '))
+# print('='*30)
+# preco= dist*0.5 if dist<=200 else dist*0.45
+# print('O preço da sua passagem é R${:.2f}'.format(preco))
+
+# ================================================================
+# from datetime import date
+#
+# ano=int(input('Que ano quer analisar: '))
+#
+# if ano==0:
+#     ano=date.today().year
+#
+# if ano%4==0 and ano%100!=0 or ano%400==0:
+#     print('O ano de {} é BISSEXTO'.format(ano))
+# else:
+#     print('O ano de {} não é BISSEXTO'.format(ano))
+
+# ================================================================
+
+# nums=[]
+# for cont in range(3):
+#     nums.append(int(input(f'Digite o {cont+1} numero: ')))
+#
+# print(f'O menor é {min(nums)}\nO maior é {max(nums)}')
+
+# ================================================================
+
+sal=float(input('Digite seu salario: '))
+print(f'Baseado em \033[33m{sal:.2f}\033[m reais.\n Seu novo salario é de \033[32m{sal+sal*.15 if sal<=1250 else sal+sal*.10}')
+
+# ================================================================
+
+# segm=[]
+# for cont in range(3):
+#     segm.append(int(input('Digite o {} do segmento: '.format(cont+1))))
+#
+# if (segm[0] < segm[1] + segm[2] and
+#     segm[1] < segm[0] + segm[2] and
+#     segm[2] < segm[0] + segm[1]):
+#     print('Os segmentos acima PODEM FORMAR um triangulo')
+# else:
+#     print('Os segmentos acima NÃO PODEM FORMAR um triangulo')
+
+
 
 
 
